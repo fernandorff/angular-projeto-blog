@@ -1,0 +1,31 @@
+/* mockup structure */
+
+.container--small-card {
+  border: solid white 1                                                                                                                                                px;
+}
+
+.container--small-card{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+
+.small-card--photo > img {
+  width: 200px;
+  min-width: 200px;
+  margin-right: 20px;
+
+}
+
+.small-card--content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+hr {
+  margin-bottom: 10px;
+}

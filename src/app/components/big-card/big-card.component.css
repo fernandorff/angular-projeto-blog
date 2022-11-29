@@ -1,0 +1,51 @@
+/* mockup structure */
+
+.container--big-card {
+  border: solid white 1px;
+}
+
+/* actual structure */
+
+.container--big-card {
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.big-card--image > img {
+  width: 100%;
+  min-width: 380px;
+  max-height: 200px;
+}
+
+.big-card--img-description {
+  margin-top: 10px;
+}
+
+.big-card--img-description > p {
+  color: gray;
+  font-size: 12px;
+}
+
+.big-card--title {
+  margin-top: 10px;
+}
+
+.big-card--title > h1 {
+  font-size: 30px;
+}
+
+.big-card--text {
+  margin-top: 10px;
+}
+
+.big-card--text > p {
+  color: grey;
+  font-size: 16px;
+}
